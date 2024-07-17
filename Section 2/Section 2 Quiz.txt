@@ -1,0 +1,142 @@
+Aquí está el quiz ordenado correctamente para que se vea bien:
+
+---
+
+**Prueba: JFo Sección 2 Prueba**
+
+**Section 2 Quiz**  
+(Responder todas las preguntas de esta sección)
+
+1. **En la programación orientada a objetos, ¿en cuál de estas dos opciones se hace énfasis? (Seleccione dos)**  
+   (Elija todas las respuestas correctas)  
+   - Escritura de algoritmos.  
+   - Interacción de objetos sin un orden prescrito.  
+   - Creación de procedimientos.  
+   - Modelación de objetos.  
+   Marcar para Revisión  
+   (1) Puntos
+
+2. **¿Cuál de los siguientes lenguajes se denomina lenguaje de procedimiento?**  
+   - C  
+   - Java  
+   - Java C  
+   - C++  
+   Marcar para Revisión  
+   (1) Puntos
+
+3. **Tiene un bonito jardín en su casa. El domingo decide trasplantar un rosal para obtener más muestras de rosales y trasplantarlos en su jardín. ¿Puede clasificar este escenario tal y como se representaría con clases e instancias?**  
+   - Las muestras del rosal son las clases, no el rosal real.  
+   - Las muestras con la clase y el rosal son las instancias de las muestras.  
+   - El rosal es el objeto y las muestras no son instancias de la planta, porque aún no han germinado.  
+   - El rosal es la clase y las muestras generadas del rosal son las instancias de la clase.  
+   Marcar para Revisión  
+   (1) Puntos
+
+4. **Un objeto puede interactuar con otro mediante la llamada de métodos. ¿Verdadero o falso?**  
+   - VERDADERO  
+   - FALSO  
+   Marcar para Revisión  
+   (1) Puntos
+
+5. **En el siguiente ejemplo de código, identifique los métodos:**  
+   ```java
+   public class Employee {
+       public String name = " Duke";
+       public int empId = 12105;
+       public float salary;
+
+       public void displaySalary(){
+           System.out.println("Employee Salary: "+salary);
+       }
+   }
+   ```
+   - salary  
+   - empId  
+   - displaySalary()  
+   - name  
+   Marcar para Revisión  
+   (1) Puntos
+
+6. **Durante la fase de diseño de desarrollo de software, el programador implanta las funciones recopiladas durante la fase de requisitos. ¿Verdadero o falso?**  
+   - VERDADERO  
+   - FALSO  
+   Marcar para Revisión  
+   (1) Puntos
+
+7. **Imagine que quiere ver una película con sus amigos y les escribe un correo electrónico para confirmar los planes.**  
+   _Hola a todos:_  
+   _Este viernes estrenan la película "Ataque del duque" en el cine Oracle a las 16:30. Está en la esquina entre la calle South y la avenida Walnut. Lo mejor sería coger el metro para llegar._  
+
+   _¿Quién se apunta?_  
+
+   **De las siguientes opciones, ¿cuáles son requisitos del plan?**  
+   - Ver "Ataque del duque" el viernes en los cines Oracle a las 16:30.  
+   - Comprobar la ubicación entre la calle South y la avenida Walnut.  
+   - Llegar al cine sobre las 16:00.  
+   - Coger el metro.  
+   Marcar para Revisión  
+   (1) Puntos
+
+8. **Si se olvida el paso de requisitos del modelo espiral de desarrollo, ¿qué podría ocurrir?**  
+   - El programa ofrecería resultados imprecisos.  
+   - Se generaría código sucio.  
+   - Faltarían funciones fundamentales de software del programa.  
+   - Sería muy complicado encontrar las soluciones.  
+   Marcar para Revisión  
+   (1) Puntos
+
+9. **Una función de software puede permitir al usuario realizar una tarea específica. ¿Verdadero o falso?**  
+   - VERDADERO  
+   - FALSO  
+   Marcar para Revisión  
+   (1) Puntos
+
+10. **¿Cuáles de las siguientes dos afirmaciones sobre el espacio en blanco son verdaderas? (Seleccione dos)**  
+    (Elija todas las respuestas correctas)  
+    - Los espacios en blanco evitan errores tipográficos durante la programación.  
+    - El espacio en blanco ayuda a mantener el código organizado.  
+    - El espacio en blanco hace que el código sea más legible.  
+    - El espacio en blanco aumenta el tiempo de ejecución del programa.  
+    - El espacio en blanco reduce el rendimiento del programa.  
+    Marcar para Revisión  
+    (1) Puntos
+
+11. **Cuando el programa se ejecuta con normalidad (no en modo de depuración), ¿qué afirmación sobre los puntos de ruptura es verdadera?**  
+    - Los puntos de ruptura detendrán la ejecución del programa en el primer punto de ruptura.  
+    - Todos los puntos de ruptura detendrán la ejecución del programa.  
+    - Los puntos de ruptura no afectarán a la ejecución del programa.  
+    - Los puntos de ruptura detendrán la ejecución del programa en el último punto de ruptura.  
+    Marcar para Revisión  
+    (1) Puntos
+
+12. **Para definir un punto de ruptura hay que hacer clic en el número del margen izquierdo del IDE. Al volver a hacer clic, se elimina el punto de ruptura. ¿Verdadero o falso?**  
+    - VERDADERO  
+    - FALSO  
+    Marcar para Revisión  
+    (1) Puntos
+
+13. **Java lee casi todo el código línea por línea. ¿Verdadero o falso?**  
+    - VERDADERO  
+    - FALSO  
+    Marcar para Revisión  
+    (1) Puntos
+
+14. **¿Cuáles de las siguientes tres afirmaciones sobre el punto de ruptura son verdaderas? (Seleccione tres)**  
+    (Elija todas las respuestas correctas)  
+    - Se puede utilizar para comprobar el estado actual del programa.  
+    - Ayuda con la depuración.  
+    - Introduce sentencias break.  
+    - Detiene la ejecución de código.  
+    - Finaliza de manera abrupta con la ejecución del código.  
+    Marcar para Revisión  
+    (1) Puntos
+
+15. **¿Cuál es el objetivo de agregar comentarios en el código?**  
+    - Mejorar el aspecto del código.  
+    - Aumentar el tiempo de ejecución del código.  
+    - Proporcionar mayor seguridad al programa.  
+    - Proporcionar una explicación sobre el código al programador.  
+    Marcar para Revisión  
+    (1) Puntos
+
+**Copyright © 2022, Oracle y/o sus filiales. Oracle, Java y MySQL son marcas comerciales registradas de Oracle y/o sus filiales. Todos los demás nombres pueden ser marcas comerciales de sus respectivos propietarios.**

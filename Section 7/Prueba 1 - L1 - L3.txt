@@ -1,0 +1,142 @@
+
+Prueba: JFo Sección 7 Prueba 1 - L1 - L3
+
+Revise las respuestas, los resultados y las puntuaciones de las preguntas que se muestran a continuación. Las respuestas correctas están marcadas con un asterisco (*).
+Section 7 Quiz 1 - L1-L3
+(Responder todas las preguntas de esta sección)
+1. Es posible acceder a las variables creadas en un método desde fuera del método.   ¿Verdadero o falso?
+VERDADERO
+FALSO (*)
+Correcto
+(1/1) Puntos
+2. ¿Cómo se puede recuperar un valor de un método?
+Defina una variable como un miembro de campo del método
+Transfiera una variable como argumento del método.
+Defina el tipo de retorno del método como nulo
+Use una sentencia return y defina el tipo de retorno del método como no nulo. (*)
+Correcto
+(1/1) Puntos
+3. La estructura de una clase consta de propiedades y comportamientos.   ¿Verdadero o falso?
+VERDADERO (*)
+FALSO
+Correcto
+(1/1) Puntos
+4. ¿Cuál es la salida del siguiente código?
+
+String s1 = "Hello";
+String s2 = "Welcome!";
+s1 = s2;
+System.out.println("s1: " +s1);
+System.out.println("s2: " +s2);
+s1: Hello
+s2: Hello
+s1: Hello
+s2: Welcome!
+s1: Welcome!
+s2: Hello
+s1: Welcome!
+s2: Welcome! (*)
+Correcto
+(1/1) Puntos
+5. ¿Qué palabra clave se utiliza para asignar memoria a un objeto recién creado?
+store
+address
+new (*)
+memory
+Correcto
+(1/1) Puntos
+Página 1 de 3
+
+
+Prueba: JFo Sección 7 Prueba 1 - L1 - L3
+
+Revise las respuestas, los resultados y las puntuaciones de las preguntas que se muestran a continuación. Las respuestas correctas están marcadas con un asterisco (*).
+Section 7 Quiz 1 - L1-L3
+(Responder todas las preguntas de esta sección)
+6. ¿Qué dos afirmaciones son verdaderas sobre los objetos de la misma clase?   (Seleccione dos)
+(Elija todas las respuestas correctas)
+Todos los objetos de la misma clase tienen los mismos métodos. (*)
+Cada nueva instancia de un objeto tendrá una ubicación diferente en la memoria. (*)
+Todos los objetos son iguales.
+Cada objeto tendrá la misma variable de referencia para la ubicación en la memoria.
+Correcto
+(1/1) Puntos
+7. Java borra automáticamente la memoria que estuvo ocupada por un objeto mediante la recolección de basura.   ¿Verdadero o falso?
+VERDADERO (*)
+FALSO
+Correcto
+(1/1) Puntos
+8. Se usarán variables de referencia para acceder a los objetos.   ¿Verdadero o falso?
+VERDADERO (*)
+FALSO
+Incorrecto. Consulte la sección 7 de la lección 2.
+(0/1) Puntos
+9. En las siguientes sentencias, ¿cuántos objetos de empleado se crean?
+
+Employee e1 = new Employee();
+Employee e2 = new Employee();
+Employee e3 = new Employee();
+0
+2
+3 (*)
+1
+Correcto
+(1/1) Puntos
+10. ¿Cómo se puede instanciar la clase Employee desde un método principal ubicado en otra clase?
+
+public class Employee{
+   private String name;
+   private double salary;
+
+   public Employee(String n, double s){
+     name = n;
+     salary = s;
+   }
+}
+Employee emp1 = new Employee();
+Employee emp1 = new Employee(50000);
+Employee emp1 = new Employee("Syam", 50000); (*)
+Employee emp1 = new Employee(50000, "Syam");
+Correcto
+(1/1) Puntos
+Página 2 de 3
+
+
+Prueba: JFo Sección 7 Prueba 1 - L1 - L3
+
+Revise las respuestas, los resultados y las puntuaciones de las preguntas que se muestran a continuación. Las respuestas correctas están marcadas con un asterisco (*).
+Section 7 Quiz 1 - L1-L3
+(Responder todas las preguntas de esta sección)
+11. ¿Qué dos afirmaciones NO son verdaderas sobre los constructores?   (Seleccione dos)
+(Elija todas las respuestas correctas)
+Un método constructor tiene un tipo de retorno nulo. (*)
+Un método constructor puede devolver un valor. (*)
+Al método constructor se le llama durante la instalación.
+Para cada instancia de un objeto se llama a un método constructor una vez.
+Correcto
+(1/1) Puntos
+12. ¿Qué tiene un valor nulo por defecto?
+boolean
+int
+Cadena (*)
+double
+Correcto
+(1/1) Puntos
+13. Un constructor es un método especial usado normalmente para definir los valores iniciales de los campos de un objeto.   ¿Verdadero o falso?
+VERDADERO (*)
+FALSO
+Correcto
+(1/1) Puntos
+14. ¿Qué afirmación es verdadera sobre el constructor por defecto de una clase?
+El constructor por defecto debe tener al menos un argumento.
+Debe escribir un constructor por defecto.
+Java proporciona automáticamente un constructor para cada clase. (*)
+El constructor por defecto siempre devuelve un valor nulo.
+Correcto
+(1/1) Puntos
+15. Una referencia de objeto con un valor nulo apunta a una ubicación vacía en la memoria.   ¿Verdadero o falso?
+VERDADERO (*)
+FALSO
+Incorrecto. Consulte la sección 7 de la lección 3.
+(0/1) Puntos
+Página 3 de 3

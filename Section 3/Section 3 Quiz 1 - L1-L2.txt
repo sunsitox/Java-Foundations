@@ -1,0 +1,141 @@
+Aquí está el quiz ordenado correctamente, eliminando la palabra "correcto" según solicitaste:
+
+---
+
+**Prueba: JFo Sección 3 Prueba 1 - L1 - L2**
+
+**Section 3 Quiz 1 - L1-L2**  
+(Responder todas las preguntas de esta sección)
+
+1. **¿Cuál es la salida?**  
+   ```java
+   public static void main(String args[]) {
+     int x = 100;
+     int y = x;
+     y++;
+     System.out.println("Value of x is " + x);
+     System.out.println("Value of y is " + y);
+   }
+   ```
+   - Value of x is 100
+   - Value of y is 101  
+   Marcar para Revisión  
+   (1) Puntos
+
+2. **¿Cuál es la salida?**  
+   ```java
+   public class Person {
+     public static void main(String args[]) {
+     int age = 20;
+     System.out.println("Value of age: " + age);
+     age = 5 + 3;
+     System.out.println("Value of age: " + age);
+     age = age + 1;
+     age++;
+     System.out.println("Value of age: " + age);
+     }
+   }
+   ```
+   - Value of age: 20
+   - Value of age: 8
+   - Value of age: 10  
+   Marcar para Revisión  
+   (1) Puntos
+
+3. **¿Cuál de los siguientes tipos de dato es el más grande?**  
+   - long  
+   Marcar para Revisión  
+   (1) Puntos
+
+4. **¿Cuáles son las prácticas recomendadas para la nomenclatura de las variables finales? (Seleccione dos)**  
+   (Elija todas las respuestas)
+   - Palabras separadas con un guion bajo
+   - Todas las letras en mayúscula  
+   Marcar para Revisión  
+   (1) Puntos
+
+5. **Si suponemos que x es un int, ¿cuáles de los siguientes son métodos para incrementar el valor de x en 1? (Seleccione tres)**  
+   (Elija todas las respuestas)
+   - x = x +1;
+   - x += 1;
+   - x++;  
+   Marcar para Revisión  
+   (1) Puntos
+
+6. **¿Cuál es el rango del tipo de datos de byte?**  
+   - –128 to 127  
+   (1/1) Puntos
+
+7. **¿Qué valor se asigna a x?**  
+   ```java
+   int x = 25 - 5 * 4 / 2 - 10 + 4;
+   ```
+   - 9  
+   (1/1) Puntos
+
+8. **Esta declaración representa un tipo de dato long. ¿Verdadero o falso?**  
+   - VERDADERO  
+   (1/1) Puntos
+
+9. **Identifique los nombres de las dos variables usadas en el código proporcionado. (Seleccione dos)**  
+   ```java
+   public class Variables {
+     public static void main(String args[]) {
+      String strVal = "Hello";
+     int intVal = 0;
+      System.out.println("Integer: " +intVal);
+    }
+   }
+   ```
+   - intVal
+   - strVal  
+   (1/1) Puntos
+
+10. **¿Qué dos sentencias no se compilarán? (Seleccione dos)**  
+    (Elija todas las respuestas)
+    - double double=10;
+    - int break=10;  
+    (1/1) Puntos
+
+11. **¿Cuál es la sintaxis válida para declarar e inicializar una variable String?**  
+    - String x= "Java";  
+    (1/1) Puntos
+
+12. **Identifique la variable declarada en el código proporcionado.**  
+    ```java
+    public class Welcome {
+      public static void main(String args[]) {
+       int a = 2;
+       System.out.println("a is " + a);
+      }
+    }
+    ```
+    - a  
+    (1/1) Puntos
+
+13. **¿Qué dos opciones son asignaciones válidas de a? (Seleccione dos)**  
+    (Elija todas las respuestas)
+    - int a = 10;
+    - int a; a = 10;  
+    (1/1) Puntos
+
+14. **¿Cuáles de las siguientes dos afirmaciones son verdaderas sobre las variables? (Seleccione dos)**  
+    (Elija todas las respuestas)
+    - Permiten editar el código de manera más eficiente.
+    - Hacen que el código se vuelva flexible.  
+    (1/1) Puntos
+
+15. **¿Cuál es la salida?**  
+    ```java
+    public class Welcome {
+      public static void main(String args[]) {
+       System.out.println("This is my first program");
+       int a = 2;
+       System.out.println("a is " + a);
+      }
+    }
+    ```
+    - This is my first program a is 2  
+    (1/1) Puntos
+
+**Copyright © 2022, Oracle y/o sus filiales. Oracle, Java y MySQL son marcas comerciales registradas de Oracle y/o sus filiales. Todos los demás nombres pueden ser marcas comerciales de sus respectivos propietarios.**

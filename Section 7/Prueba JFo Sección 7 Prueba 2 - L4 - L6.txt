@@ -1,0 +1,125 @@
+
+Prueba: JFo Sección 7 Prueba 2 - L4 - L6
+
+Revise las respuestas, los resultados y las puntuaciones de las preguntas que se muestran a continuación. Las respuestas correctas están marcadas con un asterisco (*).
+Section 7 Quiz 2 - L4-L6
+(Responder todas las preguntas de esta sección)
+1. Dado el método:
+
+void add(double a, double b)
+
+¿Qué firma de método no sobrecargaría este método?
+void add(String a, String b)
+int add (double a, double b) (*)
+void add(int a, int b)
+void add (double a, int b)
+void add(int a, int b, int c)
+Correcto
+(1/1) Puntos
+2. ¿Cómo terminaría este código de manera que un método add llame a otro método add?
+
+public int add(int a, int b, int c) {
+  return(a+b+c);
+}
+public int add(int a, int b){
+  //Complete this line.
+}
+return (a, b);
+return add(a, b, c);
+return add(a, b, 0); (*)
+return (a, b, c);
+Incorrecto. Consulte la sección 7 de la lección 4.
+(0/1) Puntos
+3. Puede escribir más de un constructor en una clase.   ¿Verdadero o falso?
+VERDADERO (*)
+FALSO
+Correcto
+(1/1) Puntos
+4. La sobrecarga de métodos puede ser una técnica útil para definir métodos con funciones o cálculos similares.   ¿Verdadero o falso?
+VERDADERO (*)
+FALSO
+Correcto
+(1/1) Puntos
+5. ¿Qué es la encapsulación?
+Una técnica para la depuración.
+Una técnica para escribir más de un método principal.
+Una técnica para limitar la visibilidad de una clase a otra. (*)
+Una técnica para incluir primitivos en un ArrayList.
+Correcto
+(1/1) Puntos
+Página 1 de 3
+
+
+Prueba: JFo Sección 7 Prueba 2 - L4 - L6
+
+Revise las respuestas, los resultados y las puntuaciones de las preguntas que se muestran a continuación. Las respuestas correctas están marcadas con un asterisco (*).
+Section 7 Quiz 2 - L4-L6
+(Responder todas las preguntas de esta sección)
+6. Los setters son métodos de tipo de retorno de valor nulo.   ¿Verdadero o falso?
+VERDADERO (*)
+FALSO
+Correcto
+(1/1) Puntos
+7. ¿Qué dos afirmaciones son verdaderas sobre los métodos getter?   (Seleccione dos)
+(Elija todas las respuestas correctas)
+Los getters tienen un modificador de acceso público. (*)
+Si tiene un método getter, debe tener un método setter.
+Los getters no suelen aceptar argumentos. (*)
+Los métodos getter suelen devolver un valor nulo.
+Incorrecto. Consulte la sección 7 de la lección 5.
+(0/1) Puntos
+8. Una referencia de objeto le dirige desde un objeto a otro.   ¿Verdadero o falso?
+VERDADERO (*)
+FALSO
+Correcto
+(1/1) Puntos
+9. Para que el resto de clases puedan acceder directamente a los campos, se deben marcar los campos de clase como públicos.   ¿Verdadero o falso?
+VERDADERO (*)
+FALSO
+Correcto
+(1/1) Puntos
+10. ¿Qué dos afirmaciones son verdaderas?   (Seleccione dos)
+(Elija todas las respuestas correctas)
+El objetivo de un método getter es devolver el valor de un campo privado (*)
+El objetivo de un método setter es permitir que se modifiquen los datos privados de manera segura (*)
+El objetivo de un método setter es modificar un campo público
+El objetivo de un método getter es conceder acceso a datos públicos a otras clases
+Correcto
+(1/1) Puntos
+Página 2 de 3
+
+
+Prueba: JFo Sección 7 Prueba 2 - L4 - L6
+
+Revise las respuestas, los resultados y las puntuaciones de las preguntas que se muestran a continuación. Las respuestas correctas están marcadas con un asterisco (*).
+Section 7 Quiz 2 - L4-L6
+(Responder todas las preguntas de esta sección)
+11. ¿Qué dos opciones son modificadores de acceso?
+(Elija todas las respuestas correctas)
+static
+public (*)
+private (*)
+final
+Correcto
+(1/1) Puntos
+12. Nunca es necesario instanciar un objeto Math.   ¿Verdadero o falso?
+VERDADERO (*)
+FALSO
+Correcto
+(1/1) Puntos
+13. No se puede acceder directamente a los campos y métodos de la clase Math, ya que son estáticos.   ¿Verdadero o falso?
+VERDADERO
+FALSO (*)
+Correcto
+(1/1) Puntos
+14. Se debe instanciar un objeto antes de poder acceder a sus métodos y campos no estáticos.   ¿Verdadero o falso?
+VERDADERO (*)
+FALSO
+Correcto
+(1/1) Puntos
+15. Las variables estáticas de una clase son variables a las que se puede acceder incluso aunque la clase no se haya instanciado.   ¿Verdadero o falso?
+VERDADERO (*)
+FALSO
+Correcto
+(1/1) Puntos
+Página 3 de 3

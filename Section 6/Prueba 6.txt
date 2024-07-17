@@ -1,0 +1,142 @@
+
+Prueba: JFo Sección 6 Prueba
+
+Revise las respuestas, los resultados y las puntuaciones de las preguntas que se muestran a continuación. Las respuestas correctas están marcadas con un asterisco (*).
+Section 6 Quiz
+(Responder todas las preguntas de esta sección)
+1. Un ciclo posterior a la prueba evalúa su estado en la parte inferior del ciclo en lugar de en la parte superior.  ¿Verdadero o falso?
+VERDADERO (*)
+FALSO
+Correcto
+(1/1) Puntos
+2. ¿Qué afirmación sobre un ciclo infinito es falsa?
+Un ciclo infinito suele deberse a un error de programación.
+En un momento dado, el cuerpo de un ciclo while hace que la condición sea falsa para evitar un ciclo infinito.
+Un ciclo infinito es un código que se ejecuta hasta que el usuario interrumpe el programa.
+Un ciclo infinito suele ser resultado de un error de sintaxis. (*)
+Correcto
+(1/1) Puntos
+3. ¿Qué tipo de ciclo se considera el ciclo posterior a la prueba?
+forEach
+for
+while
+do-while (*)
+Incorrecto. Consulte la sección 6 de la lección 2.
+(0/1) Puntos
+4. ¿Cuál es la salida?
+
+public static void main(String[] args) {
+   int num = 1;
+   while (num >= 200){
+     System.out.print(num + "" "");
+     num = num * 5;
+   }
+}
+1 5 25 125
+1 5 25 125 175
+5 25 125
+No se produce ninguna salida. (*)
+Correcto
+(1/1) Puntos
+5. ¿Qué afirmación NO es verdadera sobre los ciclos do-while?
+Las sentencias del ciclo se ejecutan una vez hasta que la condición se vuelve falsa.
+Las sentencias del ciclo se ejecutan una vez al principio y después se evalúa la condición.
+Las sentencias del ciclo se ejecutan de manera repetida hasta que la condición se vuelve falsa.
+El número de veces que se ejecuta un ciclo do-while depende del valor de la variable de contador. (*)
+Correcto
+(1/1) Puntos
+Página 1 de 3
+
+
+
+Prueba: JFo Sección 6 Prueba
+
+Revise las respuestas, los resultados y las puntuaciones de las preguntas que se muestran a continuación. Las respuestas correctas están marcadas con un asterisco (*).
+Section 6 Quiz
+(Responder todas las preguntas de esta sección)
+6. ¿Qué afirmación es verdadera?
+El contador que se incrementa determina que el número de iteraciones de ciclos aparece entre paréntesis en un ciclo loop.
+Se declara un contador (i) y se inicializa dentro del ciclo while.
+La expresión booleana que determina el número de iteraciones de ciclos aparece entre paréntesis en un ciclo while. (*)
+Una expresión booleana de ciclo while cuenta con un contador, incremento y prueba.
+Incorrecto. Consulte la sección 6 de la lección 2.
+(0/1) Puntos
+7. En la sintaxis dada de un ciclo for, ¿qué parte representa la sección de cabecera?
+
+for (initialization; condition; update) {
+// Code statement(s) }
+for (initialization; condition; update) { }
+Sentencia de código
+for (initialization; condition; update) (*)
+for (initialization; condition; update) { Code statement(s) }
+Correcto
+(1/1) Puntos
+8. Un ciclo for también se denomina un ciclo definido  ¿Verdadero o falso?
+VERDADERO (*)
+FALSO
+Incorrecto. Consulte la sección 6 de la lección 1.
+(0/1) Puntos
+9. ¿Cuál es el resultado?
+
+public static void main(String[] args) {
+    for (;;) {
+     System.out.println("Welcome to Java");
+   }
+}
+Error de compilación debido a que faltan expresiones en el bucle for.
+No hay errores ni salida.
+El programa imprime "Welcome to Java" un número infinito de veces. (*)
+El programa imprime "Welcome to Java" una vez.
+Correcto
+(1/1) Puntos
+10. ¿Cuándo se ejecuta una expresión de actualización para un ciclo for?
+Antes de cada iteración a través del ciclo.
+Antes de la primera iteración a través del ciclo.
+Después de cada iteración a través del ciclo. (*)
+Después de dos iteraciones a través del ciclo.
+Correcto
+(1/1) Puntos
+Página 2 de 3
+
+
+Prueba: JFo Sección 6 Prueba
+
+Revise las respuestas, los resultados y las puntuaciones de las preguntas que se muestran a continuación. Las respuestas correctas están marcadas con un asterisco (*).
+Section 6 Quiz
+(Responder todas las preguntas de esta sección)
+11. ¿Qué sentencia produce el resultado: 2, 4, 6, 8, 10?
+for (int i = 0; i < 8; i += 2) {
+   System.out.print(i + " ");
+}
+for (int i = 2; i < =10; i += 2) {
+  System.out.print(i + " ");
+} (*)
+for (int i = 1; i < 10; i += 2) {
+  System.out.print(i + " ");
+}
+for (int i = 0; i < 10; i += 2) {
+  System.out.print(i + " ");
+}
+Correcto
+(1/1) Puntos
+12. La expresión de inicialización inicializa el bucle y lo ejecuta una sola vez, conforme empieza el ciclo.   ¿Verdadero o falso?
+VERDADERO (*)
+FALSO
+Correcto
+(1/1) Puntos
+13. Una sentencia continue se usa para omitir las sentencias que quedan en el cuerpo del ciclo y continuar con la siguiente iteración del ciclo.   ¿Verdadero o falso?
+VERDADERO (*)
+FALSO
+Correcto
+(1/1) Puntos
+14. El objetivo de agregar comentarios es aumentar la capacidad para entender la lógica de manera sencilla.   ¿Verdadero o falso?
+VERDADERO (*)
+FALSO
+Correcto
+(1/1) Puntos
+15. La única manera de terminar un ciclo es que la condición que se va a evaluar sea falsa.  ¿Verdadero o falso?
+VERDADERO
+FALSO (*)
+Correcto
+(1/1) Puntos
+Página 3 de 3

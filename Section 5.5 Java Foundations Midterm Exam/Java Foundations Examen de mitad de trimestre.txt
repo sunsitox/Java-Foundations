@@ -1,0 +1,471 @@
+
+Prueba: Java Foundations Examen de mitad de trimestre
+
+Revise las respuestas, los resultados y las puntuaciones de las preguntas que se muestran a continuación. Las respuestas correctas están marcadas con un asterisco (*).
+Section 2
+(Responder todas las preguntas de esta sección)
+1. Imagine que quiere ver una película con sus amigos y les escribe un correo electrónico para confirmar los planes.
+
+Hola a todos:
+Este viernes estrenan la película "Ataque del duque" en el cine Oracle a las 16:30. Está en la esquina entre la calle South y la avenida Walnut. Lo mejor sería coger el metro para llegar.
+
+¿Quién se apunta?
+
+De las siguientes opciones, ¿cuáles son requisitos del plan?
+Comprobar la ubicación entre la calle South y la avenida Walnut.
+Llegar al cine sobre las 16:00.
+Ver "Ataque del duque" el viernes en los cines Oracle a las 16:30. (*)
+Coger el metro.
+Incorrecto. Consulte la sección 2 de la lección 1.
+(0/1) Puntos
+2. Durante la fase de diseño de desarrollo de software, el programador implanta las funciones recopiladas durante la fase de requisitos.  ¿Verdadero o falso?
+VERDADERO
+FALSO (*)
+Correcto
+(1/1) Puntos
+3. Si se olvida el paso de requisitos del modelo espiral de desarrollo, ¿qué podría ocurrir?
+Se generaría código sucio.
+Sería muy complicado encontrar las soluciones.
+El programa ofrecería resultados imprecisos.
+Faltarían funciones fundamentales de software del programa. (*)
+Correcto
+(1/1) Puntos
+4. ¿Cuál de los siguientes lenguajes se denomina lenguaje de procedimiento?
+C++
+Java C
+Java
+C (*)
+Correcto
+(1/1) Puntos
+5. Imagine que diseña una clase Circle con varios campos y métodos. ¿Cuáles de los siguientes podrían ser campos de esta clase? Distinga cuáles de los siguientes podrían ser propiedades y comportamientos.  (Seleccione dos)
+(Elija todas las respuestas correctas)
+Color (*)
+calculateCircumference()
+calculateArea()
+radio (*)
+calculateDiameter()
+Correcto
+(1/1) Puntos
+Página 1 de 10
+
+
+Prueba: Java Foundations Examen de mitad de trimestre
+
+Revise las respuestas, los resultados y las puntuaciones de las preguntas que se muestran a continuación. Las respuestas correctas están marcadas con un asterisco (*).
+Section 2
+(Responder todas las preguntas de esta sección)
+6. En la programación orientada a objetos, ¿en cuál de estas dos opciones se hace énfasis?  (Seleccione dos)
+(Elija todas las respuestas correctas)
+Escritura de algoritmos.
+Interacción de objetos sin un orden prescrito. (*)
+Modelación de objetos. (*)
+Creación de procedimientos.
+Incorrecto. Consulte la sección 2 de la lección 3.
+(0/1) Puntos
+7. ¿Cuál de las siguientes opciones se considera un espacio en blanco?  (Seleccione tres)
+(Elija todas las respuestas correctas)
+Líneas en blanco en el código. (*)
+Sangrado delante del código. (*)
+Espacio entre las palabras. (*)
+Espacio en las sentencias print.
+Espacio entre los corchetes [ ].
+Incorrecto. Consulte la sección 2 de la lección 2.
+(0/1) Puntos
+8. ¿Cuáles de las siguientes tres afirmaciones sobre el punto de ruptura son verdaderas?  (Seleccione tres)
+(Elija todas las respuestas correctas)
+Detiene la ejecución de código. (*)
+Finaliza de manera abrupta con la ejecución del código.
+Ayuda con la depuración. (*)
+Se puede utilizar para comprobar el estado actual del programa. (*)
+Introduce sentencias break.
+Correcto
+(1/1) Puntos
+9. Para definir un punto de ruptura hay que hacer clic en el número del margen izquierdo del IDE. Al volver a hacer clic, se elimina el punto de ruptura.  ¿Verdadero o falso?
+VERDADERO (*)
+FALSO
+Correcto
+(1/1) Puntos
+Section 3
+(Responder todas las preguntas de esta sección)
+10. ¿Qué dos sentencias se compilan?  (Seleccione dos)
+(Elija todas las respuestas correctas)
+String name = “J”; (*)
+String name = “Java”; (*)
+String name = ‘Java’;
+String name = new String ( ‘Java’);
+Incorrecto. Consulte la sección 3 de la lección 3.
+(0/1) Puntos
+Página 2 de 10
+
+
+Prueba: Java Foundations Examen de mitad de trimestre
+
+Revise las respuestas, los resultados y las puntuaciones de las preguntas que se muestran a continuación. Las respuestas correctas están marcadas con un asterisco (*).
+Section 3
+(Responder todas las preguntas de esta sección)
+11. En Java, char es un tipo de dato primitivo, mientras que String es un tipo de dato de objeto.  ¿Verdadero o falso?
+VERDADERO (*)
+FALSO
+Correcto
+(1/1) Puntos
+12. ¿Cuál es la declaración correcta de un tipo de dato char?
+char size = “M”;
+char size = ’Medium’;
+char size = ’M’; (*)
+char size = “Medium”;
+Correcto
+(1/1) Puntos
+13. ¿Qué valor se asigna a x?
+
+int x = 25 - 5 * 4 / 2 - 10 + 4;
+9 (*)
+8
+34
+7
+Correcto
+(1/1) Puntos
+14. ¿Qué palabra clave hace que no se pueda modificar el valor de una variable?
+break
+final (*)
+static
+const
+Correcto
+(1/1) Puntos
+15. ¿Cuál de los siguientes tipos de dato es el más grande?
+long (*)
+short
+byte
+int
+Correcto
+(1/1) Puntos
+Página 3 de 10
+
+
+Prueba: Java Foundations Examen de mitad de trimestre
+
+Revise las respuestas, los resultados y las puntuaciones de las preguntas que se muestran a continuación. Las respuestas correctas están marcadas con un asterisco (*).
+Section 3
+(Responder todas las preguntas de esta sección)
+16. Estos dos fragmentos de código realizan la misma tarea.   ¿Verdadero o falso?
+
+// Fragment 1
+String inputString = JOptionPane.showInputDialog("??");
+int input = Integer.parseInt(inputString);
+input++;
+
+// Fragment 2
+int input = Integer.parseInt(JOptionPane.showInputDialog("??")) + 1;
+VERDADERO (*)
+FALSO
+Correcto
+(1/1) Puntos
+17. ¿Qué dos sentencias son verdaderas sobre la clase Scanner?   (Seleccione dos)
+(Elija todas las respuestas correctas)
+Un objeto Scanner no tiene campos ni métodos.
+Los Scanners no pueden leer archivos de texto.
+Es posible cambiar un delimitador de Scanner. (*)
+Un objeto Scanner abre una secuencia para recopilar entradas. (*)
+Correcto
+(1/1) Puntos
+18. Imagine que escribe una sentencia que asigna un valor a una variable String, tal y como se indica a continuación.
+
+String input = "This is Java Program";
+
+Este modo de asignar valores a variables se conoce como codificación de forma rígida.   ¿Verdadero o falso?
+VERDADERO (*)
+FALSO
+Correcto
+(1/1) Puntos
+19. ¿Cuáles de las siguientes dos afirmaciones son verdaderas sobre las variables?   (Seleccione dos)
+(Elija todas las respuestas correctas)
+El compilador ignorará las variables.
+Permiten editar el código de manera más eficiente. (*)
+El valor asignado a una variable no puede cambiar nunca.
+Hacen que el código se vuelva flexible. (*)
+Correcto
+(1/1) Puntos
+20. ¿Cuál es la sintaxis válida para declarar e inicializar una variable String?
+String "x" = Java;
+String x = Java;
+String x= "Java"; (*)
+String "x" = "Java";
+Correcto
+(1/1) Puntos
+Página 4 de 10
+
+
+Prueba: Java Foundations Examen de mitad de trimestre
+
+Revise las respuestas, los resultados y las puntuaciones de las preguntas que se muestran a continuación. Las respuestas correctas están marcadas con un asterisco (*).
+Section 3
+(Responder todas las preguntas de esta sección)
+21. La asignación de un valor a la variable se denomina "inicialización".   ¿Verdadero o falso?
+VERDADERO (*)
+FALSO
+Correcto
+(1/1) Puntos
+22. ¿Qué dos afirmaciones son verdaderas sobre el uso del guion bajo?   (Seleccione dos)
+(Elija todas las respuestas correctas)
+Los guiones bajos cambian el valor del número.
+Los guiones bajos ayudan al compilador a interpretar números grandes.
+Los guiones bajos no afectan al valor de la variable. (*)
+Los guiones bajos hacen más legibles los números largos. (*)
+Correcto
+(1/1) Puntos
+23. ¿Cuál es un método válido para analizar una cadena como un int?
+int intVar1 = Integer.parseInt("100"); (*)
+nt intVar1 = (int)"100";
+int intVar1 = Integer.parseInt("One Hundred");
+int intVar1 = "100";
+Correcto
+(1/1) Puntos
+24. El compilador Java asciende automáticamente los valores de tipo de datos byte, short y char, y los convierte en un tipo de dato int.  ¿Verdadero o falso?
+VERDADERO (*)
+FALSO
+Incorrecto. Consulte la sección 3 de la lección 4.
+(0/1) Puntos
+Section 4
+(Responder todas las preguntas de esta sección)
+25. Dada la siguiente sentencia:
+import java.awt.font.TextLayout;
+¿cuál es el nombre del paquete?
+awt.font
+java.awt
+java.awt.font (*)
+java
+Incorrecto. Consulte la sección 4 de la lección 2.
+(0/1) Puntos
+Página 5 de 10
+
+
+Prueba: Java Foundations Examen de mitad de trimestre
+
+Revise las respuestas, los resultados y las puntuaciones de las preguntas que se muestran a continuación. Las respuestas correctas están marcadas con un asterisco (*).
+Section 4
+(Responder todas las preguntas de esta sección)
+26. ¿Qué dos opciones son sentencias de importación válidas de la clase Scanner?   (Seleccione dos)
+(Elija todas las respuestas correctas)
+import java.util;
+import java.util.*; (*)
+import java.*;
+import java.util.Scanner; (*)
+Correcto
+(1/1) Puntos
+27. ¿Cuáles de los siguientes caracteres comodín se usan para importar todas las clases a un paquete concreto?
+;
+* (*)
+~
+!
+Correcto
+(1/1) Puntos
+28. ¿Qué paquete se importa de manera implícita?
+java.io
+java.lang (*)
+java.math
+java.awt
+Correcto
+(1/1) Puntos
+29. ¿Cuál es de estas frases NO es verdadera?
+Los métodos estáticos siempre devuelven un valor nulo. (*)
+Los métodos estáticos se pueden llamar a través de una instancia de clase.
+Los métodos estáticos se pueden llamar a través del nombre de clase.
+Una clase puede tener varios métodos estáticos.
+Incorrecto. Consulte la sección 4 de la lección 5.
+(0/1) Puntos
+30. Todos los métodos de una clase Math devuelven un resultado numérico.   ¿Verdadero o falso?
+VERDADERO (*)
+FALSO
+Correcto
+(1/1) Puntos
+Página 6 de 10
+
+
+Prueba: Java Foundations Examen de mitad de trimestre
+
+Revise las respuestas, los resultados y las puntuaciones de las preguntas que se muestran a continuación. Las respuestas correctas están marcadas con un asterisco (*).
+Section 4
+(Responder todas las preguntas de esta sección)
+31. ¿Qué palabra clave se usa para la inicialización de un objeto?
+new (*)
+void
+instancia
+Sistema
+Correcto
+(1/1) Puntos
+32. ¿Cuál es un método válido de llamar al testMethod en la TestClass? Suponga que se ha creado una testInstance.
+
+public void testMethod(int x, double y){
+   System.out.println(x/y);
+}
+testInstance.testMethod(3.5, 10);
+testInstance.testMethod(3,5);
+testInstance.testMethod(10);
+testInstance.testMethod(10, 3.5, 0);
+testInstance.testMethod(10, 3,5); (*)
+Correcto
+(1/1) Puntos
+33. Un argumento es un valor que se pasa durante una llamada al método.   ¿Verdadero o falso?
+VERDADERO (*)
+FALSO
+Correcto
+(1/1) Puntos
+34. ¿Cuántos argumentos acepta el siguiente método?
+
+public void simpleInterest(double principal, int noofYears, double interestRate){
+  System.out.println("The interest rate is " +interestRate );
+}
+0
+3 (*)
+1
+2
+Correcto
+(1/1) Puntos
+35. Una cadena es una secuencia de caracteres.   ¿Verdadero o falso?
+VERDADERO (*)
+FALSO
+Correcto
+(1/1) Puntos
+Página 7 de 10
+
+
+Prueba: Java Foundations Examen de mitad de trimestre
+
+Revise las respuestas, los resultados y las puntuaciones de las preguntas que se muestran a continuación. Las respuestas correctas están marcadas con un asterisco (*).
+Section 4
+(Responder todas las preguntas de esta sección)
+36. Los objetos String son invariables.   ¿Verdadero o falso?
+VERDADERO (*)
+FALSO
+Correcto
+(1/1) Puntos
+37. ¿Cuál es la salida?
+
+public static void main(String args[]) {
+   String greeting = "Java World!";
+   String w = greeting.substring(7, 11);
+   System.out.println(w);
+}
+ld!
+rld! (*)
+rld
+orld!
+Correcto
+(1/1) Puntos
+38. El método indexOf() devuelve el valor de índice de un carácter en la cadena.   ¿Verdadero o falso?
+VERDADERO (*)
+FALSO
+Correcto
+(1/1) Puntos
+39. ¿Qué valores se devuelven a través del método nextBoolean();
+No se devuelve nada.
+Un valor entero.
+Un valor true o false. (*)
+Se devuelve el siguiente valor.
+Correcto
+(1/1) Puntos
+40. Necesita generar valores enteros aleatorios en el rango de 2 a 10. Este fragmento de código producirá el resultado deseado.  ¿Verdadero o falso?
+
+Random r = new Random();
+r.nextInt(9) + 2;
+VERDADERO (*)
+FALSO
+Correcto
+(1/1) Puntos
+Página 8 de 10
+
+
+Prueba: Java Foundations Examen de mitad de trimestre
+
+Revise las respuestas, los resultados y las puntuaciones de las preguntas que se muestran a continuación. Las respuestas correctas están marcadas con un asterisco (*).
+Section 4
+(Responder todas las preguntas de esta sección)
+41. El uso de la clase Random requiere una sentencia import.   ¿Verdadero o falso?
+VERDADERO (*)
+FALSO
+Correcto
+(1/1) Puntos
+Section 5
+(Responder todas las preguntas de esta sección)
+42. En Java, una sentencia if se puede anidar dentro de otra sentencia if.   ¿Verdadero o falso?
+VERDADERO (*)
+FALSO
+Correcto
+(1/1) Puntos
+43. De estas opciones, ¿qué dos no son operadores lógicos?   (Seleccione dos)
+(Elija todas las respuestas correctas)
+% (*)
+||
+!
++ (*)
+&&
+Correcto
+(1/1) Puntos
+44. Un empleado opta a recibir un bono en función de determinados criterios.
+¿Bajo qué condiciones se imprime "Eligible for a bonus"?
+
+int rating;
+int experience;
+if (rating > 1 && experience == 5) {
+   System.out.println ("Eligible for a bonus");
+}
+5 de experiencia y 1 de calificación
+5 de calificación y 1 de experiencia
+5 de experiencia y 2 o más de calificación (*)
+Experiencia inferior a 5 y 1 de calificación
+Correcto
+(1/1) Puntos
+45. Una sentencia break hace que el control se transfiera al final de la sentencia switch.   ¿Verdadero o falso?
+VERDADERO (*)
+FALSO
+Correcto
+(1/1) Puntos
+Página 9 de 10
+
+
+Prueba: Java Foundations Examen de mitad de trimestre
+
+Revise las respuestas, los resultados y las puntuaciones de las preguntas que se muestran a continuación. Las respuestas correctas están marcadas con un asterisco (*).
+Section 5
+(Responder todas las preguntas de esta sección)
+46. La sentencia switch es una forma más eficaz de escribir código cuando se trata de un gran rango de valores desconocidos.   ¿Verdadero o falso?
+VERDADERO
+FALSO (*)
+Correcto
+(1/1) Puntos
+47. ¿Cuáles son los valores posibles de un tipo de dato booleano en Java?
+true/false (*)
+bien/mal
+yes/no
+0/1
+Correcto
+(1/1) Puntos
+48. ¿Qué tres opciones son sentencias condicionales?   (Seleccione tres)
+(Elija todas las respuestas correctas)
+Sentencia if (*)
+Sentencia if/else (*)
+Ciclo do/while
+Sentencia switch (*)
+Ciclo for
+Correcto
+(1/1) Puntos
+49. ¿Cuál es la salida?
+
+public static void main(String[] args) {
+   String name = "Java";
+   String language = "Programming";
+   String fullName = name + language;
+   boolean test = fullName.equals(name + language);
+   System.out.println(test);
+}
+Programación Java
+FALSO
+Programación Java
+VERDADERO (*)
+Correcto
+(1/1) Puntos
+50. Una comparación de cadenas con == compara las localizaciones de las cadenas en la memoria, no los contenidos de la cadena.   ¿Verdadero o falso?
+VERDADERO (*)
+FALSO
+Correcto
+(1/1) Puntos
+Página 10 de 10
